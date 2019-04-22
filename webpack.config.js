@@ -18,10 +18,10 @@ const config = {
         test: /\.vue$/,
         loader: 'vue-loader'
       },
-//      {
-//        test: /\.css$/,
-//        use: ['style-loader','css-loader']
-//      },
+      {
+        test: /\.css$/,
+        use: ['style-loader','css-loader']
+      },
       {
           test: /\.jsx$/,
           loader: 'babel-loader'                  //处理jsx文件

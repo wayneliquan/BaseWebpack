@@ -1,12 +1,12 @@
 <template>
-  <div id="author">{{author}}</div>
+  <div id="desc">{{desc}}</div>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      author: 'wayneliquan'
+      desc: 'Webpack 基础开发环境搭建！'
     }
   }
 }
