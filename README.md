@@ -20,10 +20,6 @@
   ./init
 ```
 
-## 安装依赖
-```shell
-npm install --save-dev webpack-dev-server cross-env html-webpack-plugin
-```
 ## 配置package.json
 在"scripts"添加"build"与"dev"脚本，结果如下：
 ```json
