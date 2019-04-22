@@ -17,8 +17,7 @@
 
 ## 初始化webpack
 ```shell
-  npm init
-  npm i --save-dev webpack
+  ./init
 ```
 
 ## 安装依赖
@@ -35,7 +34,11 @@ npm install --save-dev webpack-dev-server cross-env html-webpack-plugin
 }
 ```
 
-## 配置webpack.config.js
+## 运行
 ```shell
-
+./run
+```
+## 编译
+```shell
+./build
 ```
