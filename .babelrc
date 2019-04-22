@@ -1,0 +1,12 @@
+{
+    "presets": [
+        "env"
+    ],
+    "plugins": [
+        "transform-vue-jsx"
+    ]
+}
+
+//转换vue中的jsx代码
+//npm i --save-dev babel-preset-env babel-plugin-transform-vue-jsx
+//npm i --save-dev babel-helper-vue-jsx-merge-props babel-plugin-syntax-jsx

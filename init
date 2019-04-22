@@ -1,0 +1,15 @@
+npm i --save vue
+npm i -save-dev webpack webpack-cli
+
+npm i --save-dev webpack vue-loader css-loader \
+  style-loader file-loader url-loader stylus stylus-loader
+npm i --save-dev cross-env
+
+npm i --save-dev webpack-dev-server
+
+npm i --save-dev postcss-loader autoprefixer
+
+npm i --save-dev extract-text-webpack-plugin html-webpack-plugin
+
+npm i --save-dev  babel-loader  babel-loader babel-preset-env babel-plugin-transform-vue-jsx \
+  babel-helper-vue-jsx-merge-props babel-plugin-syntax-jsx
